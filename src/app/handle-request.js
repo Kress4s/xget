@@ -29,6 +29,7 @@ import { createRequestContext } from './request-context.js';
  * @param {ExecutionContext} ctx - Cloudflare Workers execution context for background tasks
  * @returns {Promise<Response>} The HTTP response with appropriate headers and body
  */
+
 export async function handleRequest(request, env, ctx) {
   let response;
   const monitor = new PerformanceMonitor();

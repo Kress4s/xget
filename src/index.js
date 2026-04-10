@@ -12,6 +12,7 @@ import { handleRequest } from './app/handle-request.js';
 
 export { handleRequest } from './app/handle-request.js';
 
+
 export default {
   /**
    * Main Worker entry point.
